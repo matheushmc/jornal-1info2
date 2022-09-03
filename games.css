@@ -1,0 +1,239 @@
+@charset "UTF-8" ;
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue Display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  background-color: rgb(43, 43, 43);
+  background-size: 100% 100%;
+  margin: 0px;
+  display: inline;
+}
+
+.bordacria {
+  position: sticky;
+  top: 0px;
+  display: inline-block;
+  height: 70px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+  
+}
+
+.games {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.botaocria {
+  background-color: black;
+  border-style: double;
+  display: grid;
+  grid-template-columns: 140px;
+  justify-content: space-evenly;
+  width: 100%;
+  
+  
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex; justify-content: center;
+    margin-bottom: 20%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;  
+    border: 1px rgb(43, 43, 43) solid;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgb(190, 188, 188);
+    
+
+}
+.games{
+    border-top: 5px rgb(255, 255, 255) solid;
+}
+.main{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 300px 300px 300px;
+}
+
+
+  .textocria{
+    color: white;
+    font-size: larger;
+    font-family: 'Roboto Condensed'; 
+    position: absolute;
+    top: 102%;
+    right: 67%;
+    text-align: center;
+  }
+.amonguscria {
+ top: 60%;
+ right: 0%;
+ position: absolute;
+ border: cornsilk solid;
+border-radius: 40px 40px 40px;
+}
+
+.textolegal {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 102%;
+  left: 67%;
+  text-align: center; 
+}
+.multiversus{
+border: cornsilk solid;
+border-radius: 40px 40px 40px;
+}
+.controle {
+ position: absolute; 
+ top: 55%;
+ right: 37%;
+}
+.xbox {
+  position: absolute; 
+ top: 125%;
+ right: 32%;
+ border: cornsilk solid;
+border-radius: 40px 40px 40px;
+}
+.textoxbox {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 167%;
+  text-align: center;
+  right: 25%; 
+}
+.textoroblox {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 102%;
+  right: 67%;
+  text-align: center;
+}
+.bordar {
+  border: cornsilk solid;
+  border-radius: 40px 40px 40px;
+}
+.borda2 {
+  border: cornsilk solid;
+  border-radius: 40px 40px 40px; 
+  top: 60%;
+ right: 0%;
+ position: absolute;
+}
+.textor2 {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 102%;
+  left: 67%;
+  text-align: center; 
+}
+.logoroblox {
+  position: absolute; 
+  top: 60%;
+  right: 38%;
+}
+.roblox4 {
+  position: absolute; 
+  top: 125%;
+  right: 34%;
+  border: cornsilk solid;
+ border-radius: 40px 40px 40px;
+}
+.textoroblox4 {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 167%;
+  text-align: center;
+  right: 25%;  
+}
+.sonicbo {
+  border: cornsilk solid;
+  border-radius: 40px 40px 40px;
+}
+.textosonic {
+  color: white;
+    font-size: larger;
+    font-family: 'Roboto Condensed'; 
+    position: absolute;
+    top: 102%;
+    right: 67%;
+    text-align: center;
+}
+.sonicjogo {
+  border: cornsilk solid;
+  border-radius: 40px 40px 40px; 
+  top: 60%;
+ right: 0%;
+ position: absolute; 
+}
+.textosonic3 {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 102%;
+  left: 67%;
+  text-align: center; 
+}
+.soniclogo {
+  position: absolute; 
+ top: 55%;
+ right: 37%;
+}
+.fifaborda {
+  border: cornsilk solid;
+  border-radius: 40px 40px 40px;
+}
+.textofifa {
+  color: white;
+    font-size: larger;
+    font-family: 'Roboto Condensed'; 
+    position: absolute;
+    top: 105%;
+    right: 67%;
+    text-align: center;
+}
+.heroisborda {
+  top: 60%;
+ right: 0%;
+ position: absolute;
+ border: cornsilk solid;
+border-radius: 40px 40px 40px;
+}
+.textofifa2 {
+  color: white;
+  font-size: larger;
+  font-family: 'Roboto Condensed'; 
+  position: absolute;
+  top: 105%;
+  left: 67%;
+  text-align: center; 
+}
+.logofifa {
+  position: absolute; 
+ top: 60%;
+ right: 37%;
+}
+
